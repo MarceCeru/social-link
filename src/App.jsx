@@ -1,11 +1,16 @@
 
+import { MainCard
+  
+ } from './components/mainCard'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>holas Marcelo</h1>
+      <div className="App">
+        <MainCard />
+      </div>
     </>
   )
 }

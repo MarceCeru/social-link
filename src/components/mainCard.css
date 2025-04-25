@@ -1,0 +1,40 @@
+.main-card {
+    background-color: var(--Grey-800);
+    width: 325px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+
+
+    .image {
+        width: 90px;
+        margin-top: 25px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: var(--White);
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .residence {
+        color: var(--Green);
+        font-size: 14.5px;
+    }
+
+    .profession{
+        color: var(--White);
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+}
