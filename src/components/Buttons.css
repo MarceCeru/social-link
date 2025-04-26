@@ -1,0 +1,23 @@
+.buttons{
+    width: 280px;
+    height: 45px;
+    background-color: var(--Grey-700);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    color: var(--White);
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.buttons:hover{
+    cursor: pointer;
+    border: none;  
+    outline: none; 
+    border-color: var(--Grey-700);
+}
+
+.buttons:focus-visible{
+    outline: none;
+    border: none;
+}

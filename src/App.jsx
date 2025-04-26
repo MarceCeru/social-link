@@ -1,7 +1,6 @@
 
-import { MainCard
-  
- } from './components/mainCard'
+
+import { MainCard} from './components/mainCard'
 import './App.css'
 
 function App() {
