@@ -7,14 +7,19 @@
     border-radius: 8px;
     color: var(--White);
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 14npx;
+    
+    @media (min-width:800px) {
+        width: 300px;
+    }
 }
 
 .buttons:hover{
-    cursor: pointer;
+    cursor: url('../assets/images/mano-nega-pequeña.png') 0 0, pointer;
     border: none;  
     outline: none; 
     border-color: var(--Grey-700);
+    background-color: var(--Green);
 }
 
 .buttons:focus-visible{

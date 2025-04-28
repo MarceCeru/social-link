@@ -36,4 +36,8 @@
         margin-bottom: 25px;
     }
 
+    @media(min-width:800px) {
+        width: 386px;
+    }
+
 }
